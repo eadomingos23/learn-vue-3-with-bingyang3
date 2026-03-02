@@ -1,21 +1,44 @@
 <template>
   <h1>{{ message }}</h1>
   <img v-bind:src="imageUrl" alt="" />
-  <br>
+  <br />
   <img :src="imageUrl" alt="" />
+  <br />
 
-  <button @click=""changImg>Change image</button>
+  <button @click="changeImg">Change image</button>
+
+  <br />
+
+  <hr />
+
+  <input type="text" :value="defaultInputText" />
+
+  <hr />
+
+  <p :class="className">Harry Potter</p>
+
+  <p :class="{ inactive: isInactive, center: isCenter }">
+    Harry Potter
+  </p>
+
+  <p :class="['active', 'center']">Harry Potter</p>
 </template>
 
 <script setup>
-import {ref} from 'vue'
-let message = 'Hello v-bind!'
+import { ref } from 'vue'
 
-let imageUrl='/public/img/banner_1.jpg'
+let message = 'Hello, v-bind!'
+let imageUrl = ref('/img/banner_1.jpg')
 
-function changImg(){
-imageUrl.value='/public/img/banner_2.jpg'
+function changeImg() {
+  imageUrl.value = '/img/banner_2.jpg'
 }
+
+let defaultInputText = 'Write something here...'
+
+let className = ref('active')
+let isInactive = ref(true)
+let isCenter = ref(false)
 </script>
 
 <style scoped>
