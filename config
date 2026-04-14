@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/eadomingos23/learn-vue-3-with-bingyang3.git
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true

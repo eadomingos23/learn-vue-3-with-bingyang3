@@ -1,0 +1,22 @@
+# pack-refs with: peeled fully-peeled sorted 
+e1c6e498cf8aac7ff476dc548f99dbb3619124ab refs/heads/array-change-detection
+b33c900171bfa4fc5592d1090adffdc68e3e27e9 refs/heads/computed-properties
+ca9e88d1521d090b5e10d310589ca5d412df4658 refs/heads/lifecycle_hooks
+9de0c61b3825ac7167d118d04454a42475ed3f63 refs/heads/mustache-notation
+b9b71b6c717b21abfe5d7cb29486e0e89363188c refs/heads/reactivity
+ade5d86b33e3ef7871e54f7953d5f974aec9ae85 refs/heads/template-refs
+7fcf7ef18e6713aa0d4cdf88daa10426e24ccc78 refs/heads/v-bind
+9306db376ba1de25e4baee7b02cffabfc1480e62 refs/heads/v-for
+3ffbec3d529a7a634f9b2e7702d09a0c45b29b94 refs/heads/v-if
+907815f07e3e1883e1034da7d438397202d7add3 refs/heads/v-model
+c7cea132ea9fbe08a1f1249081d4ce436636e2bf refs/heads/v-model-vs-v-bind
+a3498d6f76b62e5649e16b5a31023304d4b773af refs/heads/vue-components-events
+8019c321edb3f40399cfd3add03ad5afd2740b4f refs/heads/vue-components-intro
+71db3857fee285901c785a429968421cffb6f538 refs/heads/vue-components-props
+f58245c0fe78acbe49b32ff49b76a6481f8aa6e1 refs/heads/vue-components-provide-inject
+99893f5315b9565ed645602dd8969b3be38ff32e refs/heads/vue-components-v-model
+bd04aa2187da6f8fa4f4eed75fb5a954cbe1e4f6 refs/heads/vue-named-slots
+9ddd21762bd016adb923720ed6818683c33036d7 refs/heads/vue-scoped-slots
+c45cdb67aaacdedeb0fab9b79fed26c0c96cab82 refs/heads/vue-slots-intro
+1afe45319afb36fe7f72c8ffcd55469a1a2e3adb refs/heads/watchEffect
+2547082be6db700a62d23a6da25db05abd43e1f2 refs/heads/watchers
